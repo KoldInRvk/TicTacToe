@@ -1,4 +1,4 @@
-##				**Skýrsla fyrir TicTacToe**:smiley:
+##			:x:**Skýrsla fyrir TicTacToe**:o:
 
 *17.10.2018* - 
 Í þessu verkefni byrjuðum við á því að sjá hvar allir stóðu í Git og Javascript.
