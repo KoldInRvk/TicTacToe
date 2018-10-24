@@ -1,1 +1,49 @@
-/*start*/
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  div {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background-image: url("giphy1.gif");
+    font-family: 'Sofia'; font-size: 22px;
+    background-size: cover;
+    color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  table {
+    border: none;
+    border-collapse: collapse;
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+td{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid green;
+}
+td:first-of-type {
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+  td:nth-of-type(2) {
+    border-top-color: transparent;
+  }
+  td:nth-of-type(3) {
+    border-right-color: transparent;
+    border-top-color: transparent;
+  }
+  tr:nth-of-type(3) td {
+    border-bottom-color: transparent;
+  }
