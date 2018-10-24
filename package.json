@@ -18,5 +18,8 @@
   "homepage": "https://github.com/KoldInRvk/TicTacToe#readme",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "puppeteer": "^1.9.0"
   }
 }
