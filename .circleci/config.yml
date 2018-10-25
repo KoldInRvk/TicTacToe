@@ -8,3 +8,4 @@ jobs:
       - run:
           name: test
           command: make test
+          command: make
