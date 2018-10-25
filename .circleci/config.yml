@@ -7,5 +7,4 @@ jobs:
       - checkout
       - run:
           name: test
-          command: make test
-          command: make
+          command: npm test
