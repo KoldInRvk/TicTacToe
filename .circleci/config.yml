@@ -5,6 +5,9 @@ jobs:
       - image: debian:stretch
     steps:
       - checkout
+      - run: apt-get install -y sudo
+      - run: echo hallo
+      - run: ls -al /bin/sh && sudo rm /bin/sh && sudo on -s /bin/bash /bin/sh && ls -al /bin/sh
       - run:
           name: update-npm 
           command: 'sudo npm install -g npm@latest'
