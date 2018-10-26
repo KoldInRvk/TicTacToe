@@ -6,8 +6,5 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install-npm-wee
-          command: /root/.nvm/versions/node/v6.10.0/bin/npm install
-      - run:
           name: test
-          command: npm test
+          command: test
