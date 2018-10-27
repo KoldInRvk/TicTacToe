@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const greeting = require("../logic/index");
+const greeting = require("../logic/tictactoe");
 
 router.get("/", (req, res) => {
   res.status(405).send({ error: "GET method not allowed, try OPTIONS." });
